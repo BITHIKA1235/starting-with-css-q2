@@ -1,0 +1,43 @@
+/* Gallery Block */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Gallery Item Element */
+.gallery__item {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+/* Gallery Image Element */
+.gallery__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Gallery Description Element */
+.gallery__description {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+/* Modifiers for Different Gallery Items */
+.gallery__item--nature {
+    border-color: green;
+}
+
+.gallery__item--city {
+    border-color: blue;
+}
+
+.gallery__item--abstract {
+    border-color: red;
+}
